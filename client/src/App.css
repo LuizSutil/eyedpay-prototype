@@ -1,0 +1,121 @@
+.container {
+    width: 350px;
+    margin: 3px auto;
+    height: 700px;
+    border: 1px solid rgb(81, 81, 82);
+    background-color: rgb(59, 58, 59);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.image {
+    position: absolute;
+    
+}
+
+
+.logoContainer{
+
+    border-radius: 25px;
+    text-align: center;
+    height: 15  0px;
+    background-color: rgb(161, 125, 6);
+    position: relative;
+}
+
+.textInput {
+    position: relative;
+    left: 50px;
+  }
+
+  .picInput {
+    position: relative;
+    left: 20%;
+  }
+
+  .faceInput {
+    position: relative;
+    left: 60px;
+  }
+
+.textInput2 {
+    position: relative;
+    left: 23%;
+  }
+
+.midButt {
+    position: relative;
+    left: 35%;
+    margin-top: 40%;
+}
+
+.btnPlacer {
+    text-align: center;
+     }
+
+.text {
+    margin-top: 10%;
+    text-align: center;
+    color: gainsboro;
+}
+
+.textA {
+  margin-top: 1%;
+  margin-bottom: 15%;
+  text-align: center;
+  color: rgb(10, 185, 216);
+}
+
+.textB {
+  margin-top: 10%;
+  margin-bottom: 20%;
+  text-align: center;
+  color: rgb(151, 100, 5);
+}
+
+
+
+.button {
+    position: relative;
+    border-radius: 15px;
+    background-color: rgb(161, 125, 6);
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 10%;
+  }
+  
+.button:after {
+    content: "";
+    background: #e0a014;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+.ztelluz {
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+}
