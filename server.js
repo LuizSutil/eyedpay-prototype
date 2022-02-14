@@ -20,8 +20,8 @@ const MongoStore = require("connect-mongo");
 
 
 
-AWS.config.update({accessKeyId: 'AKIAXD24L7NBPTOCG4NJ' })
-AWS.config.update({secretAccessKey: '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' })
+AWS.config.update({accessKeyId: '' })
+AWS.config.update({secretAccessKey: '' })
 AWS.config.update({region: 'us-east-2'});
 
 var s3 = new AWS.S3();
